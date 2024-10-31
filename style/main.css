@@ -94,8 +94,8 @@ body {
   font-size: 3rem;
 }
 
-
 .six {
+
   position: relative;
   top: 10vh;
   z-index: 1;
@@ -114,6 +114,12 @@ body {
   /* transform: scale(0.1); */
   top: -35%;
   width: 80px;
+}
+
+.profile-picture {
+  border-radius: 70%; 
+  border: 5px solid #fff; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .baloons img {
@@ -269,7 +275,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 6rem;
   }
 
   .six .hat {
